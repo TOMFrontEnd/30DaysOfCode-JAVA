@@ -9,10 +9,11 @@ public class ArrayListSort {
     cars.add("Ford");
     cars.add("Mazda");
     Collections.sort(cars);  // Sort cars
-    for (String i : cars) {
-      System.out.println(i);
+    //for (String i : cars) {
+      cars.forEach((i) -> System.out.println(i));
     }
   }
-}
+
 //综合体现了这个知识点，遍历，排序，插入。
 //Linkedlist 用法和上述一致，但是添加了几个方法。加，消首尾
+//add Lambda expression to literrate the item in sorted arrays.
