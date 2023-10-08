@@ -38,3 +38,4 @@ public class StringToArray
 }
 //learned from this is : String length is method
 // have to include brackets like s.length(), but array is not. length is not method.
+
